@@ -1,0 +1,45 @@
+
+armors_rendering:
+  dragon_helmet:
+    color: '#1793a7'
+    layer_1: armor/dragon_helmet
+    use_color: true
+
+
+items:
+  example_sword:
+    material: DIAMOND_PICKAXE
+    name: "&6Epic Custom Sword"
+    lore:
+      - "&7Ye sword bahut powerful hai!"
+      - "&8Custom Model wala"
+    custom-model-data: 12345
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      fire_aspect: 2
+    flags:
+      - HIDE_ENCHANTS
+    on-mine:
+     fuction: "danoice:ray_start"
+
+  maxel:
+    material: DIAMOND_PICKAXE
+    name: "&6Epic Custom Sword"
+    lore:
+      - "&7Ye sword bahut powerful hai!"
+      - "&8Custom Model wala"
+    custom-model-data: 12345
+    unbreakable: true
+    enchantments:
+      sharpness: 5
+      fire_aspect: 2
+    flags:
+      - HIDE_ENCHANTS
+    on-mine:
+     dig-shape: sphere
+     dig-radius: 6
+
+
+
+

@@ -1,0 +1,21 @@
+name: dnnItemX
+version: '1.0-SNAPSHOT'
+
+main: org.example.dnnItem.DnnItem
+api-version: '26.1.2'
+load: POSTWORLD
+
+description: Config based custom items with model data & datapack functions
+
+commands:
+  dnnitem:
+    description: Main command of DnnItem
+    usage: /dnnitem
+    permission: dnnitem.admin
+    aliases:
+      - di
+
+permissions:
+  dnnitem.admin:
+    description: Allows use of DnnItem admin commands
+    default: op
